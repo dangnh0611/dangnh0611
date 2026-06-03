@@ -1,16 +1,14 @@
 name: Update GitHub Stats SVG
 on:
   schedule:
-    - cron: '0 */3 * * *' # Runs every 3 hours
-  workflow_dispatch: # Allows you to run it manually
+    - cron: '0 */3 * * *' # Runs automatically every 3 hours
+  workflow_dispatch: # This adds a manual "Run workflow" button in your Actions tab
 
 jobs:
   stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          persist-credentials: false
+      - uses: actions/checkout@v4
 
       - name: Generate stats SVG
         run: |
