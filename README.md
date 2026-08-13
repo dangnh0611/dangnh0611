@@ -10,6 +10,10 @@
 
 
 <p align="left">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dangnh0611&show_icons=true&include_all_commits=true&theme=tokyonight" alt="dangnh0611's GitHub stats" height="195" />
-  <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/dangnh0611/competition" alt="Kaggle Competition Track" height="195" />
+  <img src="https://github-stats-extended.vercel.app/api?username=dangnh0611&show_icons=true&include_all_commits=true&theme=tokyonight"
+       alt="dangnh0611's GitHub stats"
+       height="195" />
+  <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/dangnh0611/competition"
+       alt="Kaggle Competition Track"
+       height="195" />
 </p>
